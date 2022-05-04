@@ -1,0 +1,32 @@
+<div>
+    <button 
+            class="btn btn-primary m-1" 
+            value="spain" 
+            #spain
+            (click)="getSpain()"
+            >
+            España
+    </button>
+    <button 
+            class="btn btn-primary m-1" 
+            value="united kingdom" 
+            #UK
+            (click)="getUK()"
+            >
+            Reino Unido
+    </button>
+    <button class="btn btn-primary m-1" 
+            value="portugal" 
+            #portugal
+            (click)="getPortugal()"
+            >
+            Portugal
+    </button>
+
+    <input 
+        type="text"
+        (keyup)="seugest()"
+        [(ngModel)]="term"
+        [attr.disabled]="disabled ? '' : null"
+        >
+</div>
