@@ -1,5 +1,11 @@
 # SearchOnType
 
+API source:
+https://github.com/public-apis/public-apis
+University Domains and Names Data List & API
+https://github.com/Hipo/university-domains-list
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
 ## Development server
